@@ -1,0 +1,201 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: ;
+	text-align: left;
+	background-image: url(../images/background.jpg);
+	background-color: #cccccc;
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+
+header {
+	text-align: center;
+	height: 60px;
+	font-weight: bolder;
+	color: blue;
+	font-size: 50px;
+}
+
+#navigation {
+	display:block;
+	clear: both;
+	height: auto;
+	margin: 2% 5%;
+	float: left;
+	width: 90%;
+	background-color: black;
+}
+
+#navigation ul li a {
+	color: #daf3fa;
+	text-decoration: none;
+	height: 36px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	padding: 18px 13px;
+	font-size: 20px;
+}
+
+#navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 25%;
+	width: 50%;
+}
+
+#navigation ul li {
+	
+	list-style: none;
+	padding: 0 2%;
+}
+
+#viewUsers table {
+	margin: 0 2%;
+	width: 96%;
+}
+
+/*
+#viewInfo table {
+	margin: 0 2%;
+	width: 96%;
+}
+
+*/
+
+
+#createUser table {
+	margin: 0 22%;
+	width: 56%;
+}
+
+
+.content {
+	float: left;
+	margin: 2% 0; 
+	width: 50%;
+	background-color: #bec1bf;
+	border-radius:10px;
+	border:6px solid #1C478E;
+}
+
+#logout {
+	float: left;
+	margin:2% 5% ;
+	border: 1px solid #69698c;
+	background-color: #1aa3ff;
+	width: 15%;
+	height: 5%;
+	padding: 1% 0;
+}
+
+#logout a {
+	margin: 0 36%;
+}
+
+.username {
+	font-style: italic;
+	font-weight: bold;
+	color: #cc0000;
+}
+
+table {
+	margin: 0 22%;
+	width: 56%;
+}
+
+th{
+  text-align: center !important;
+  text-decoration:none;
+}
+
+td{
+  text-decoration:none;
+  text-align: center;
+}
+#login tr {
+	margin: 0 10%;
+}
+
+.ctable, .ctable th, .ctable td{
+	border:1px solid #000000;
+	border-collapse: collapse;
+}
+
+table.ctable{
+	margin: 0;
+	width: 100%;
+}
+
+
+#indexContent{
+	padding: 0;
+}
+
+h2, h4 {
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+}
+
+#login, #register {
+	margin: 17% 25%;
+	width: 50%;
+
+}
+
+#viewUsers {
+	padding-bottom: 1%;
+}
+
+
+nav ul li a:hover, a:focus {
+	text-decoration: none;
+	color: #8993c3;
+}
+
+#errMsg, #registerError, #modifyError, #userIdError {
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+	color: red;
+}
+
+#registerSuccess, #modifySuccess, #deleteSuccess, #registerSuccessAdmin {
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+	color: green;
+}
+
+#blogout {
+	text-align: center;
+}
+
+table.specs td {
+	text-align: left;
+}
+
+td img {
+	height: 100%;
+	width: 100%;
+
+}
+
+#infoTable {
+	background-color: #b2b6bb;
+}
+
+#infoTable tr td {
+	text-align: left;
+
+}
+
+.leftBold {
+	font-weight: bold;
+}
